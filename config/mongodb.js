@@ -5,6 +5,7 @@ exports.schema = function(){
     password: String,
     googleId: String,
     facebookId:String,
+    secret:String,
   })
 
   return UserSchema;
